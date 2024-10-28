@@ -1,0 +1,14 @@
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.exe
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.deps.json
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.runtimeconfig.json
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\bin\Debug\net8.0\ContactApp.pdb
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.AssemblyInfoInputs.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.AssemblyInfo.cs
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.csproj.CoreCompileInputs.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\refint\ContactApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.pdb
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.genruntimeconfig.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ref\ContactApp.dll
