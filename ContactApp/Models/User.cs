@@ -37,7 +37,8 @@ namespace ContactApp.Models
         public override string ToString()
         {
             return $"User Id: {UserId}\n" +
-                $"User Name: {FirstName} {LastName}\n" ;
+                $"User Name: {FirstName} {LastName}\n" +
+                $"Admin: {IsAdmin}\n" ;
         }
     }
 }

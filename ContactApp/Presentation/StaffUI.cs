@@ -28,11 +28,11 @@ namespace ContactApp.Presentation
                     "6. Logout");
 
                 int choice = int.Parse(Console.ReadLine());
-                SwitchMenu(choice);                
+                SwitchMenu(user, choice);                
             }
         }
 
-        private static void SwitchMenu(int choice)
+        private static void SwitchMenu(User user, int choice)
         {
             switch (choice)
             {
