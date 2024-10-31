@@ -1,4 +1,5 @@
 ﻿using ContactApp.Controllers;
+using ContactApp.Exceptions;
 using ContactApp.Models;
 using ContactApp.Type;
 using System;
@@ -27,27 +28,32 @@ namespace ContactApp.Presentation
                     "6. Logout");
 
                 int choice = int.Parse(Console.ReadLine());
-                switch (choice)
-                {
-                    case 1:
-                        AddContact(user);
-                        break;
-                    case 2:
-                        EditContact(user);
-                        break;
-                    case 3:
-                        DeleteContact(user);
-                        break;
-                    case 4:
-                        ShowAllContacts(user);
-                        break;
-                    case 5:
-                        SearchContact(user);
-                        break;
-                    case 6:
-                        LogOut();
-                        break;
-                }
+                SwitchMenu(choice);                
+            }
+        }
+
+        private static void SwitchMenu(int choice)
+        {
+            switch (choice)
+            {
+                case 1:
+                    AddContact(user);
+                    break;
+                case 2:
+                    EditContact(user);
+                    break;
+                case 3:
+                    DeleteContact(user);
+                    break;
+                case 4:
+                    ShowAllContacts(user);
+                    break;
+                case 5:
+                    SearchContact(user);
+                    break;
+                case 6:
+                    LogOut();
+                    break;
             }
         }
 
@@ -60,10 +66,22 @@ namespace ContactApp.Presentation
         {
             Console.WriteLine("Enter contact id:");
             int id = int.Parse(Console.ReadLine());
+            try
+            {
+                Contact contact = StaffManager.Search(user, id);
+                Console.WriteLine(contact);
+                Console.WriteLine("----- Contact Details -----");
+                PrintContactDetails(contact);
+                
+            }
+            catch(NullContactException ce)
+            {
+                Console.WriteLine(ce.Message);
+            }
+        }
 
-            Contact contact = StaffManager.Search(user, id);
-            Console.WriteLine(contact);
-            Console.WriteLine("----- Contact Details -----");
+        private static void PrintContactDetails(Contact contact)
+        {
             foreach (var detail in contact.Details)
             {
                 Console.WriteLine(detail);
@@ -74,14 +92,23 @@ namespace ContactApp.Presentation
         {
             foreach (Contact contact in user.contacts)
             {
+                PrintContact(contact);   
+            }
+        }
+
+        private static void PrintContact(Contact contact)
+        {
+            try
+            {
                 Contact contact1 = StaffManager.ChekActive(contact);
                 Console.WriteLine(contact1);
                 Console.WriteLine("----- Contact Details -----");
-                foreach(var detail in contact1.Details)
-                {
-                    Console.WriteLine(detail);
-                }
+                PrintContactDetails(contact1);
                 Console.WriteLine("---------------------------");
+            }
+            catch (NullContactException ce)
+            {
+                Console.WriteLine(ce.Message);
             }
         }
 
@@ -89,13 +116,35 @@ namespace ContactApp.Presentation
         {
             Console.WriteLine("Enter contact Id:");
             int id = int.Parse(Console.ReadLine());
-
-            StaffManager.RemoveContact(user, id);
+            try
+            {
+                StaffManager.RemoveContact(user, id);
+            }
+            catch(NullContactException ce)
+            {
+                Console.WriteLine(ce.Message);
+            }
         }
 
         private static void EditContact(User user)
         {
-            Console.WriteLine("Edit contact method");
+            Console.WriteLine("Enter contact Id:");
+            int id = int.Parse(Console.ReadLine());
+
+            try
+            {
+                Contact contact = StaffManager.Search(user, id);
+
+                Console.WriteLine("Enter contact first name:");
+                contact.FirstName = Console.ReadLine();
+                Console.WriteLine("Enter contact last name:");
+                contact.LastName = Console.ReadLine();
+            }
+            catch(NullContactException ce)
+            {
+                Console.WriteLine(ce.Message);
+            }
+
         }
 
         private static void AddContact(User user)
@@ -110,20 +159,8 @@ namespace ContactApp.Presentation
             Contact contact = new Contact(id, fName, lName, true);
             user.AddContact(contact);
 
-            //Console.WriteLine("Enter contact detail id:");
-            //int cId = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter contact Type:(Mail, Number)");
-            //string cType = Console.ReadLine();
-            //Contact_Type type;
-            //if (cType == "Mail")
-            //{
-            //    type = Contact_Type.EMAIL;
-            //}
-            //type = Contact_Type.NUMBER;
-            
-
-            Contact_Details details1 = new Contact_Details(id + random.Next(50), Contact_Type.NUMBER);
-            Contact_Details details2 = new Contact_Details(id + random.Next(50), Contact_Type.EMAIL);
+            Contact_Details details1 = new Contact_Details(random.Next(50), Contact_Type.NUMBER);
+            Contact_Details details2 = new Contact_Details(random.Next(50), Contact_Type.EMAIL);
             contact.AddContactDetails(details1);
             contact.AddContactDetails(details2);
         }

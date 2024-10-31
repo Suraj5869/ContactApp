@@ -7,36 +7,28 @@
       "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\presentation\\staffui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\models\\contact_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\models\\contact_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\controllers\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\controllers\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\exceptions\\nullcontactexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\exceptions\\nullcontactexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\presentation\\contactappui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\presentation\\contactappui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\controllers\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\controllers\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\presentation\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\presentation\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\controllers\\adminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\controllers\\adminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\contactapp\\contactapp\\exceptions\\nulluserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F564118-D034-43A1-ACE8-4E5B9CE91B0D}|ContactApp\\ContactApp.csproj|solutionrelative:contactapp\\exceptions\\nulluserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,30 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact_Details.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\Contact_Details.cs",
-              "RelativeDocumentMoniker": "ContactApp\\Models\\Contact_Details.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\Contact_Details.cs",
-              "RelativeToolTip": "ContactApp\\Models\\Contact_Details.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NullContactException.cs",
+              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Exceptions\\NullContactException.cs",
+              "RelativeDocumentMoniker": "ContactApp\\Exceptions\\NullContactException.cs",
+              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Exceptions\\NullContactException.cs",
+              "RelativeToolTip": "ContactApp\\Exceptions\\NullContactException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T06:53:57.624Z",
+              "WhenOpened": "2024-10-31T06:26:57.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "NullUserException.cs",
+              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Exceptions\\NullUserException.cs",
+              "RelativeDocumentMoniker": "ContactApp\\Exceptions\\NullUserException.cs",
+              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Exceptions\\NullUserException.cs",
+              "RelativeToolTip": "ContactApp\\Exceptions\\NullUserException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:23:10.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StaffManager.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Controllers\\StaffManager.cs",
               "RelativeDocumentMoniker": "ContactApp\\Controllers\\StaffManager.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Controllers\\StaffManager.cs",
               "RelativeToolTip": "ContactApp\\Controllers\\StaffManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T06:39:28.741Z",
               "EditorCaption": ""
@@ -82,7 +87,7 @@
               "RelativeDocumentMoniker": "ContactApp\\Presentation\\StaffUI.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Presentation\\StaffUI.cs",
               "RelativeToolTip": "ContactApp\\Presentation\\StaffUI.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwEEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T06:27:37.319Z",
               "EditorCaption": ""
@@ -95,74 +100,35 @@
               "RelativeDocumentMoniker": "ContactApp\\Presentation\\ContactAppUI.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Presentation\\ContactAppUI.cs",
               "RelativeToolTip": "ContactApp\\Presentation\\ContactAppUI.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T16:11:13.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AdminUI.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Presentation\\AdminUI.cs",
               "RelativeDocumentMoniker": "ContactApp\\Presentation\\AdminUI.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Presentation\\AdminUI.cs",
               "RelativeToolTip": "ContactApp\\Presentation\\AdminUI.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwFcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T08:37:10.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "AdminManager.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Controllers\\AdminManager.cs",
               "RelativeDocumentMoniker": "ContactApp\\Controllers\\AdminManager.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Controllers\\AdminManager.cs",
               "RelativeToolTip": "ContactApp\\Controllers\\AdminManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T04:38:51.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "ContactApp\\Models\\Contact.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\Contact.cs",
-              "RelativeToolTip": "ContactApp\\Models\\Contact.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:57:14.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ContactApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Models\\User.cs",
-              "RelativeToolTip": "ContactApp\\Models\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:57:00.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Program.cs",
-              "RelativeDocumentMoniker": "ContactApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\ContactApp\\ContactApp\\Program.cs",
-              "RelativeToolTip": "ContactApp\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:56:11.273Z",
               "EditorCaption": ""
             }
           ]

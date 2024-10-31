@@ -1,4 +1,5 @@
-﻿using ContactApp.Models;
+﻿using ContactApp.Exceptions;
+using ContactApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,27 +18,28 @@ namespace ContactApp.Controllers
             {
                 return contact;
             }
-            return null; 
+            throw new NullContactException("No such contact exist!!"); 
         }
 
         internal static void RemoveContact(User user, int id)
         {
             Contact contact = user.contacts.Where(contact => contact.ContactId == id).FirstOrDefault();
-            if (contact != null)
+            if (contact == null)
             {
-                contact.IsActive = false;            
+                throw new NullContactException("No such contact exist!!");
             }
+            contact.IsActive = false;
         }
 
         internal static Contact Search(User user, int id)
         {
-            List < Contact > contacts = user.GetContact();
+            List <Contact> contacts = user.GetContact();
             Contact contact = contacts.Where(contact => contact.ContactId == id).FirstOrDefault(); 
-            if (contact == null)
+            if (contact != null && contact.IsActive == true)
             {
-                return null;
+                return contact;
             }
-            return contact;
+            throw new NullContactException("No such contact exist!!");
         }
 
 

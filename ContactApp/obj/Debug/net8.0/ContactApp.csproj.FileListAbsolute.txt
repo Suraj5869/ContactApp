@@ -12,3 +12,4 @@ C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.pdb
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.genruntimeconfig.cache
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ref\ContactApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\ContactApp\ContactApp\obj\Debug\net8.0\ContactApp.sourcelink.json

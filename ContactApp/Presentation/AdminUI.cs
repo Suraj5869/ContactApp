@@ -1,4 +1,5 @@
 ﻿using ContactApp.Controllers;
+using ContactApp.Exceptions;
 using ContactApp.Models;
 using System;
 using System.Collections.Generic;
@@ -23,27 +24,33 @@ namespace ContactApp.Presentation
                     "6. Logout");
 
                 int choice = int.Parse(Console.ReadLine());
-                switch (choice)
-                {
-                    case 1:
-                        AddUser();
-                        break;
-                    case 2:
-                        EditUser();
-                        break;
-                    case 3:
-                        DeleteUser();
-                        break;
-                    case 4:
-                        ShowAllUsers();
-                        break;
-                    case 5:
-                        FindUser();
-                        break;
-                    case 6:
-                        LogOut();
-                        break;
-                }
+
+                SwitchMenu(choice);                
+            }
+        }
+
+        private static void SwitchMenu(int choice)
+        {
+            switch (choice)
+            {
+                case 1:
+                    AddUser();
+                    break;
+                case 2:
+                    EditUser();
+                    break;
+                case 3:
+                    DeleteUser();
+                    break;
+                case 4:
+                    ShowAllUsers();
+                    break;
+                case 5:
+                    FindUser();
+                    break;
+                case 6:
+                    LogOut();
+                    break;
             }
         }
 
@@ -56,17 +63,35 @@ namespace ContactApp.Presentation
         {
             Console.WriteLine("Enter user Id:");
             int id = int.Parse(Console.ReadLine());
-
-            User user = AdminManager.SearchUser(id);
-            Console.WriteLine(user);
+            try
+            {
+                User user = AdminManager.SearchUser(id);
+                Console.WriteLine(user);
+            }
+            catch(NullUserException ne)
+            {
+                Console.WriteLine(ne.Message);
+            }
         }
 
         private static void ShowAllUsers()
         {
             foreach(User user in ContactAppUI.users)
             {
+                PrintUser(user);
+            }
+        }
+
+        private static void PrintUser(User user)
+        {
+            try
+            {
                 User user1 = AdminManager.CheckActive(user);
                 Console.WriteLine(user1);
+            }
+            catch (NullUserException ne)
+            {
+                Console.WriteLine(ne.Message);
             }
         }
 
@@ -74,13 +99,37 @@ namespace ContactApp.Presentation
         {
             Console.WriteLine("Enter user Id:");
             int id = int.Parse(Console.ReadLine());
-
-            AdminManager.RemoveUser(id);
+            try
+            {
+                AdminManager.RemoveUser(id);
+            }
+            catch(NullUserException ne)
+            {
+                Console.WriteLine(ne.Message);
+            }
         }
 
         private static void EditUser()
         {
-            Console.WriteLine("edit user method");
+            Console.WriteLine("Enter user id:");
+            int id = int.Parse(Console.ReadLine());
+            try
+            {
+                User user = AdminManager.SearchUser(id);
+
+                Console.WriteLine("Enter new first name:");
+                user.FirstName = Console.ReadLine();
+                Console.WriteLine("Enter ew last name:");
+                user.LastName = Console.ReadLine();
+                Console.WriteLine("User is admin: true or false");
+                string input = Console.ReadLine();
+                bool isAdmin = (input == "true") ? true : false;
+                user.IsAdmin = isAdmin;
+            }
+            catch (NullUserException ne)
+            {
+                Console.WriteLine(ne.Message);
+            }
         }
 
         private static void AddUser()

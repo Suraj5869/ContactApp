@@ -1,4 +1,5 @@
-﻿using ContactApp.Models;
+﻿using ContactApp.Exceptions;
+using ContactApp.Models;
 using ContactApp.Presentation;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,11 @@ namespace ContactApp.Controllers
         public static User SearchUser(int id)
         {
             var user = ContactAppUI.users.Where(user => user.UserId == id).FirstOrDefault();
-            if (user == null)
+            if (user != null && user.IsActive == true)
             {
-                return null;
+                return user;
             }
-            return user;
+            throw new NullUserException("No such user exist!!!");
         }
 
         public static User CheckActive(User user)
@@ -26,7 +27,7 @@ namespace ContactApp.Controllers
             {
                 return user;
             }
-            return null;
+            throw new NullUserException("No such user exist!!!");
         }
 
         internal static void RemoveUser(int id)
@@ -34,7 +35,7 @@ namespace ContactApp.Controllers
             var user = ContactAppUI.users.Where(user => user.UserId == id).FirstOrDefault();
             if (user == null)
             {
-                throw new Exception();
+                throw new NullUserException("No such user exist!!!");
             }
             user.IsActive = false;
         }

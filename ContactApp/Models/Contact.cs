@@ -28,6 +28,7 @@ namespace ContactApp.Models
         {
             Details.Add(details);
         }
+
         public override string ToString()
         {
             return $"Contact id: {ContactId}\n" +

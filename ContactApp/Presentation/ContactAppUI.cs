@@ -16,31 +16,30 @@ namespace ContactApp.Presentation
             int id = int.Parse(Console.ReadLine());
 
             CheckId(id);
-            
         }
 
         private static void CheckAdmin(User user)
         {
-            
             if (user.IsAdmin)
             {
                 Console.WriteLine("current user is admin");
                 Console.WriteLine(user);
                 AdminUI.AdminMenu(user);
-
             }
-            Console.WriteLine("current user is staff");
-            Console.WriteLine(user);
-            StaffUI.StaffMenu(user);
+            else
+            {
+                Console.WriteLine("current user is staff");
+                Console.WriteLine(user);
+                StaffUI.StaffMenu(user);
+            }
         }
 
         private static void CheckActive(User user)
         {
-                if (user.IsActive)
-                {
-                    CheckAdmin(user);
-                }
-            
+            if (user.IsActive)
+            {
+                CheckAdmin(user);
+            }    
             Console.WriteLine ("User is not active");
         }
 
@@ -48,21 +47,23 @@ namespace ContactApp.Presentation
         {
             foreach (User user in users)
             {
-                if (user.UserId == id)
-                {
-                    CheckActive(user);
-                }
+                CheckActiveId(user, id);
             }
             Console.WriteLine("Id does not exist!!");
+        }
+
+        private static void CheckActiveId(User user, int id)
+        {
+            if (user.UserId == id)
+            {
+                CheckActive(user);
+            }
         }
 
         public static void AddUser(User user)
         {
             users.Add(user);
         }
-
-        
-
-        
+       
     }
 }
