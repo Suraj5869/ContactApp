@@ -119,7 +119,7 @@ namespace ContactApp.Presentation
 
                 Console.WriteLine("Enter new first name:");
                 user.FirstName = Console.ReadLine();
-                Console.WriteLine("Enter ew last name:");
+                Console.WriteLine("Enter new last name:");
                 user.LastName = Console.ReadLine();
                 Console.WriteLine("User is admin: true or false");
                 string input = Console.ReadLine();
@@ -140,7 +140,7 @@ namespace ContactApp.Presentation
             string fName = Console.ReadLine();
             Console.WriteLine("Enter last name:");
             string lName = Console.ReadLine();
-            Console.WriteLine("User is admin: true\tfalse");
+            Console.WriteLine("User is admin: true or false");
             string input = Console.ReadLine();
             bool isAdmin = (input =="true")? true: false;
 
